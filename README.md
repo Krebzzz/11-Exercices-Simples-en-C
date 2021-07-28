@@ -1,7 +1,7 @@
 # 11-Exercices-Simples-en-C
 [PREREQUIS]
   - Tableaux
-  - Chaîne de caractères 
+  - Chaînes de caractères 
   - Un cerveau (enfin le minimum)
 
 Le language C n'aura plus aucun secret pour vous.
