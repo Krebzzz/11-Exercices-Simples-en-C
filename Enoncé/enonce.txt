@@ -1,0 +1,179 @@
+
+--------------------------------------------
+--------------------------------------------
+
+#1. Vérification Parenthèse d'une chaîne
+
+-> Ecrire un programme qui vérifie si, lorsque l'utilsateur ouvre une parenthèse, la parenthèse est bien fermée !  
+
+[EXEMPLE 1]
+
+  > Entrer une phrase : printf("%d",a()); // ici, c'est l'utilisateur qui a rentré la commande grâce à scanf
+  >> Le compte est bon !
+
+[EXEMPLE 2]
+
+  > Entrer une phrase : printf("%d",a(); 
+  >> Erreur au niveau des parenthèses !
+
+
+--------------------------------------------
+--------------------------------------------
+
+#2 Carré Etoile
+
+-> Demander à l'utilisateur d'entrer une largeur et une longueur 
+-> Dessiner, en console, un rectangle avec les dimensions de l'utilisateur.
+
+[EXEMPLE]
+
+   > Largeur : 4
+   > Longueur : 3
+   >> ****
+      ****
+      ****
+
+--------------------------------------------
+--------------------------------------------
+
+#3 Nombre de caractères trouvées
+
+-> Demander à l'utilisateur d'entrer une chaînes de caractères,  puis un caractère simple
+-> Dire si le caractère donnée, se trouve dans cette chaîne ainsi que le nombre de fois.
+
+[EXEMPLE 1]
+
+  > Entrer une phrase : krebzz
+  > Entrer un caractère : z
+  >> Le caractère z se trouve 2 fois dans le mot krebzz !
+
+[EXEMPLE 2]
+
+  > Entrer une phrase : krebz
+  > Entrer un caractère : y
+  >> Le caractère y n'a pas été trouvée !
+
+--------------------------------------------
+--------------------------------------------
+
+#4 Supprimer un caractère
+
+-> Demander à l'utilisateur d'entrer une chaînes de caractères,  puis un caractère simple
+-> Supprimer le caractère de la chaîne, s'y il se trouve dedans
+
+  > Entrer une phrase : krebz
+  > Entrer un caractère : e
+  >> krbz
+
+--------------------------------------------
+--------------------------------------------
+
+#5 Addition et moyenne des valeurs d'un tableau
+
+-> Demander le nombre de cases du tableau, puis demander à l'utilisateur de les remplir une par une avec des nombres
+-> Calculer la somme des nombres entrées par l'utilisateur 
+-> Calculer la moyenne des nombres entrées par l'utilisateur
+
+  > Nombres de cases du tableau T : 3
+  > T[0] = 1 
+  > T[1] = 2
+  > T[2] = 18 
+  >> La somme est égal à : 21, la moyenne est égal à 7.
+
+--------------------------------------------
+--------------------------------------------
+
+#6  Maximum d'un tableau
+
+-> Demander le nombre de cases du tableau, puis demander à l'utilisateur de les remplir une par une avec des nombres
+-> Retrouver le nombre maximum (plus grand) parmi toutes les valeurs entrées par l'utilisateur.
+
+  > Nombres de cases du tableau T : 2
+  > T[0] = 81
+  > T[1] = 58
+  >> Le nombre max est : 81
+  
+--------------------------------------------
+--------------------------------------------
+
+#7 Inverser une chaîne de caractère
+
+-> Demander à l'utilisateur de rentrer une chaîne de caractère
+-> Afficher dans un ordre décroissant
+
+  > Entrer une phrase : krebz
+  >> zberk
+
+--------------------------------------------
+--------------------------------------------
+
+#8 Comparer deux chaînes sans strcmp
+
+[EXEMPLE 1]
+
+  >Entrer une première chaîne : krebz
+  >Entrer une deuxième chaîne : krebz
+  >> Les chaînes 'krebz' et 'krebz' sont identiques !
+
+[EXEMPLE 2]
+
+  >Entrer une première chaîne : krebz
+  >Entrer une deuxième chaîne : krebzzz
+  >> La chaîne 'krebz' est plus petite que 'krebzzz' !
+
+[EXEMPLE 3]
+
+  >Entrer une première chaîne : krebzzz
+  >Entrer une deuxième chaîne : krebz
+  >> La chaîne 'krebzzz' est plus grande que 'krebz' !
+
+--------------------------------------------
+--------------------------------------------
+
+#9 Démontrer si un caractère est une lettre alphabétique, grâce à isalpha 
+
+-> Demander à l'utilisateur d'entrer une chaîne de caractères
+-> Regarder lettre par lettre si elle est alphabétqiue, grâce à isalpha qui se situe dans <ctype.h>
+
+  > Entrer une phrase : krb0
+  >>k est alphabétique
+  >>r est alphabétique 
+  >>b est alphabétique
+  >>0 n'est pas alphabétique
+
+--------------------------------------------
+--------------------------------------------
+
+#10 Transfomer les majuscules en minuscules, et inversement
+
+
+-> Demander à l'utilisateur d'entrer une chaîne de caractères
+-> Si il y'a des minuscules, les réafficher en majuscules et inversement
+
+[EXEMPLE 1]
+
+  > Entrer une phrase : krebz
+  >> KREBZ
+
+[EXEMPLE 2]
+
+  > Entrer une phrase : KREbz
+  >> kreBZ
+
+--------------------------------------------
+--------------------------------------------
+
+#11 Le CtrlF dans une liste de prénom
+
+-> Demander à l'utilisateur le nombre d'élément d'une liste
+-> Donner le prénom un par un de chaque élément
+-> Demander à l'utilisateur d'entrer un caractère
+-> Afficher tout les prénoms de la liste, commençant par ce caractère.
+
+ > Nombre d'élément du tableau T : 4
+ > Prénom de T[0] = krebz
+ > Prénom de T[1] = patrick
+ > Prénom de T[2] = josé
+ > Prénom de T[3] = krebzEstVraimentBeau
+ > Entrer le caractère : k
+ >> Les prénoms qui commencent par k sont : krebz krebzEstVraimentBeau
